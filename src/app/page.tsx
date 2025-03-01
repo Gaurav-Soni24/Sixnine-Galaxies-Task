@@ -63,7 +63,7 @@ export default function DiceBettingGame() {
       clearInterval(rollInterval)
 
       //fetch data from api
-      fetch("http://localhost:5000/roll-dice").then((response) => {
+      fetch("https://sixnine-galaxies-task-w2ss.vercel.app/roll-dice").then((response) => {
         if (response.ok) {
           return response.json()
         } else {
