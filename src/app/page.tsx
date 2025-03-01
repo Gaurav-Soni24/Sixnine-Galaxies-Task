@@ -147,7 +147,7 @@ export default function DiceBettingGame() {
   const stats = calculateStats()
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gradient-to-b from-zinc-900 to-black text-white">
+    <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-black text-white">
       <div className="mb-4 text-center">
         <h1 className="text-3xl font-bold mb-1 text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-500">Casino Royal</h1>
         <p className="text-zinc-400">Test your luck with our dice game</p>
